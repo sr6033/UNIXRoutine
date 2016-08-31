@@ -1,0 +1,9 @@
+# Site settings
+title: UNIX Routine
+tag_text: UNIXRoutine
+description: Beautiful One Page UNIX Commands Cheat Sheet
+# Build settings
+markdown: kramdown
+exclude: ["README.md"]
+sass:
+  style: compressed
