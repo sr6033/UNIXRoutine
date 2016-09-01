@@ -8,7 +8,7 @@ layout: default
 ## The daily coffee. 
 ---
 
-### `ls` : list all the files in the **current** directory. 
+### `ls` : list all the files in the **current** directory. Dark Secrets.
 
 À la carte :
 
@@ -22,10 +22,27 @@ layout: default
 
 - `ls -R` : recursively lists subdirectories.
 
+>Learn more about `ls` [here.](https://en.wikipedia.org/wiki/Ls)
+
+Geeky Gif :
 
 
+### `cd` : change from anywhere to home directory. Welcome back, hon.
 
+À la carte : 
 
+- `cd ..` : go back one level.
+
+- `cd ~username` : puts you in username's home directory.
+
+- `cd -n` : entries are wrapped before they reach the edge of the screen
+
+- `cd some_fun_directory` : puts you in `some_fun_directory`. 
+
+> if you are in `/usr`, typing `cd lol` will put you in `/usr/lol`, while `cd /lol` puts you in `/lol`.
+ 
+### `rm` : remove a file forever.
+ 
 ---
 Copyright [sudoankit.](https://github.com/sudoankit)
 Licensed under the [MIT License.](https://raw.githubusercontent.com/sudoankit/UNIXRoutine/master/LICENSE)
