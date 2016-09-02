@@ -26,7 +26,7 @@ layout: default
 
 Geeky Gif : 
 
-![ls.gif](https://github.com/sudoankit/UNIXRoutine/blob/master/geekygifs/ls.gif)
+![ls.gif](_site/geekygifs/ls.gif)
 
 ---
 
@@ -46,7 +46,7 @@ Geeky Gif :
 
 Geeky gif :
 
-![cd.gif](https://github.com/sudoankit/UNIXRoutine/blob/master/geekygifs/cd.gif)
+![cd.gif](_site/geekygifs/cd.gif)
 
 ---
  
