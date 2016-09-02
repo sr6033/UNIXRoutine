@@ -62,7 +62,7 @@ In layman terms, it **removes a file** from the present directory.
 
 - `rm -f` : may the **force** be with you. Forcefully removes the file without any confirmation prompts. 
 
-- `rm -rf` : forcefully and recursively removes everything single precious file.
+- `rm -rf` : forcefully and recursively removes every single precious file.
 
 > rm -rf , rm -rf /, rm -rf *, is frequently used in jokes and anecdotes about Unix disasters. **NEVER RUN THIS IN SUPERUSER UNLESS YOU KNOW WHAT YOU ARE DOING**.
 Have a nice day.
