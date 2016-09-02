@@ -47,6 +47,10 @@
 
 <p>Geeky Gif :</p>
 
+<p><img src="/geekygifs/ls.gif" alt="ls.gif" /></p>
+
+<hr />
+
 <h3 id="cd--change-from-anywhere-to-home-directory-welcome-back-hon"><code class="highlighter-rouge">cd</code> : change from anywhere to home directory. Welcome back, hon.</h3>
 
 <p>À la carte :</p>
@@ -56,10 +60,10 @@
     <p><code class="highlighter-rouge">cd ..</code> : go back one level.</p>
   </li>
   <li>
-    <p><code class="highlighter-rouge">cd ~username</code> : puts you in username’s home directory.</p>
+    <p><code class="highlighter-rouge">cd ~username</code> : puts you in username’s home directory. [UNIX ONLY]</p>
   </li>
   <li>
-    <p><code class="highlighter-rouge">cd -n</code> : Entries are wrapped before they reach the edge of the screen</p>
+    <p><code class="highlighter-rouge">cd </code> : puts you in the user main directory. Home, folks.</p>
   </li>
   <li>
     <p><code class="highlighter-rouge">cd some_fun_directory</code> : puts you in <code class="highlighter-rouge">some_fun_directory</code>.</p>
@@ -70,7 +74,37 @@
   <p>if you are in <code class="highlighter-rouge">/usr</code>, typing <code class="highlighter-rouge">cd lol</code> will put you in <code class="highlighter-rouge">/usr/lol</code>, while <code class="highlighter-rouge">cd /lol</code> puts you in <code class="highlighter-rouge">/lol</code>.</p>
 </blockquote>
 
-<h3 id="rm--remove-a-file-forever"><code class="highlighter-rouge">rm</code> : remove a file forever.</h3>
+<p>Geeky gif :</p>
+
+<p><img src="/geekygifs/cd.gif" alt="cd.gif" /></p>
+
+<hr />
+
+<h3 id="rm--removes-references-to-objects-from-the-filesystem"><code class="highlighter-rouge">rm</code> : removes references to objects from the filesystem.</h3>
+
+<p>In layman terms, it <strong>removes a file</strong> from the present directory.</p>
+
+<p>À la carte :</p>
+
+<ul>
+  <li>
+    <p><code class="highlighter-rouge">rm -r</code> : removes directories, removing the contents recursively beforehand.</p>
+  </li>
+  <li>
+    <p><code class="highlighter-rouge">rm -i</code> : interative removal of a file. Asks beforehand if you wanna die :)</p>
+  </li>
+  <li>
+    <p><code class="highlighter-rouge">rm -f</code> : may the <strong>force</strong> be with you. Forcefully removes the file without any confirmation prompts.</p>
+  </li>
+  <li>
+    <p><code class="highlighter-rouge">rm -rf</code> : forcefully and recursively removes everything single precious file.</p>
+  </li>
+</ul>
+
+<blockquote>
+  <p>rm -rf , rm -rf /, rm -rf *, is frequently used in jokes and anecdotes about Unix disasters. <strong>NEVER RUN THIS IN SUPERUSER UNLESS YOU KNOW WHAT YOU ARE DOING</strong>.
+Have a nice day.</p>
+</blockquote>
 
 <hr />
 <p>Copyright <a href="https://github.com/sudoankit">sudoankit.</a>

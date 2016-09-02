@@ -24,8 +24,11 @@ layout: default
 
 >Learn more about `ls` [here.](https://en.wikipedia.org/wiki/Ls)
 
-Geeky Gif :
+Geeky Gif : 
 
+![ls.gif](/geekygifs/ls.gif)
+
+---
 
 ### `cd` : change from anywhere to home directory. Welcome back, hon.
 
@@ -33,15 +36,36 @@ Geeky Gif :
 
 - `cd ..` : go back one level.
 
-- `cd ~username` : puts you in username's home directory.
+- `cd ~username` : puts you in username's home directory. [UNIX ONLY]
 
-- `cd -n` : entries are wrapped before they reach the edge of the screen
+- `cd ` : puts you in the user main directory. Home, folks.
 
 - `cd some_fun_directory` : puts you in `some_fun_directory`. 
 
 > if you are in `/usr`, typing `cd lol` will put you in `/usr/lol`, while `cd /lol` puts you in `/lol`.
+
+Geeky gif :
+
+![cd.gif](/geekygifs/cd.gif)
+
+---
  
-### `rm` : remove a file forever.
+### `rm` : removes references to objects from the filesystem.
+
+In layman terms, it **removes a file** from the present directory.
+
+À la carte : 
+
+- `rm -r` : removes directories, removing the contents recursively beforehand.
+
+- `rm -i` : interative removal of a file. Asks beforehand if you wanna die :)
+
+- `rm -f` : may the **force** be with you. Forcefully removes the file without any confirmation prompts. 
+
+- `rm -rf` : forcefully and recursively removes everything single precious file.
+
+> rm -rf , rm -rf /, rm -rf *, is frequently used in jokes and anecdotes about Unix disasters. **NEVER RUN THIS IN SUPERUSER UNLESS YOU KNOW WHAT YOU ARE DOING**.
+Have a nice day.
  
 ---
 Copyright [sudoankit.](https://github.com/sudoankit)

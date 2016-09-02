@@ -23,6 +23,7 @@ I vowed that day to create a beautiful castle :european_castle: to house my prec
 - [x]  :arrow_right: Responsive. :tada:
 - [ ] :soon: Smart notes from personal experience.
 - [ ] :soon: Offline availibility as a PDF file.
+- [ ] :soon: man page for UNIXRoutine. Isn't this cool.
 - [x] :arrow_right: Beautiful. :sparkling_heart: :sparkles:
 - [x] :arrow_right: Jump start for new recruits in the code culture. :star2:
 - [x] :arrow_right: WOW factor. :tada:
@@ -30,6 +31,15 @@ I vowed that day to create a beautiful castle :european_castle: to house my prec
 - [x] :arrow_right: No bullshit :shit: , pure open source. :thumbsup:
 
 ---
+
+### Tech stack and big thanks to
+
+- Solo theme by [chibicode](https://github.com/chibicode)
+- Jekyll 
+- Sass
+- ttystudio by [chjj](https://github.com/chjj)
+- You!
+
 
 ### ..and some more words.
 
