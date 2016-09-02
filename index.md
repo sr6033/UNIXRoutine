@@ -26,7 +26,7 @@ layout: default
 
 Geeky Gif : 
 
-![ls.gif](_site/geekygifs/ls.gif)
+![ls.gif](geekygifs/ls.gif)
 
 ---
 
@@ -46,7 +46,7 @@ Geeky Gif :
 
 Geeky gif :
 
-![cd.gif](_site/geekygifs/cd.gif)
+![cd.gif](geekygifs/cd.gif)
 
 ---
  
