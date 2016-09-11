@@ -107,6 +107,43 @@ Have a nice day.</p>
 </blockquote>
 
 <hr />
+
+<h3 id="apt-get-ultimate-package-manager"><code class="highlighter-rouge">ls</code> : Package manager: install, delete, update, upgrade directly from <strong>command line</strong> . Most copied command in the entire OS</h3>
+
+<p>À la carte :</p>
+
+<ul>
+  <li>
+    <p><code class="highlighter-rouge">apt-get update</code> : Updates the list of packages you can install from various sources.</p>
+  </li>
+  <li>
+    <p><code class="highlighter-rouge">apt-get install package_name</code> : Downloads and install that package from the internet. Usually follows the above command.</p>
+  </li>
+  
+  <li>
+    <p><code class="highlighter-rouge">apt-get purge package_name</code> : compleatly removes the package. <strong>hidden</strong> files.</p>
+  </li>
+  <li>
+    <p><code class="highlighter-rouge">apt-get install -f package_name</code> : Download and install, and correct broken dependecies. Like if package A is dependent on package B to run, but package B is broken it may try to reinstall it.</p>
+  </li>
+  <li>
+    <p><code class="highlighter-rouge">apt-get upgrade</code> : Upgrade all you packages to thier newest versions. Similar to the update all button on the appstore/playstore.</p>
+  </li>
+  <li>
+    <p><code class="highlighter-rouge">apt-get autoremove</code> : removes unused packages automatically.</p>
+  </li>
+</ul>
+
+<blockquote>
+  <p>All of these commands are generally preceded by sudo (super user do) which in noob speak translates to administrater privileges. The GUI app to do this effectively can be downloaded using <code class="highlighter-rouge">apt-get install synaptic</code> .</p>
+</blockquote>
+
+<p>Geeky Gif :</p>
+
+<p><img src="geekygifs/ls.gif" alt="ls.gif" /></p>
+
+<hr />
+
 <p>Copyright <a href="https://github.com/sudoankit">sudoankit.</a>
 Licensed under the <a href="https://raw.githubusercontent.com/sudoankit/UNIXRoutine/master/LICENSE">MIT License.</a></p>
 
