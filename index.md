@@ -66,6 +66,26 @@ In layman terms, it **removes a file** from the present directory.
 
 > rm -rf , rm -rf /, rm -rf *, is frequently used in jokes and anecdotes about Unix disasters. **NEVER RUN THIS IN SUPERUSER UNLESS YOU KNOW WHAT YOU ARE DOING**.
 Have a nice day.
+
+---
+
+### `apt-get` : Package manager for debian systems. 50% off this winters.
+
+In layman terms, it's a package manager to install, delete, update, upgrade softwares directly from **command line** . 
+
+À la carte : 
+
+- `apt-get update` : Updates the list of packages you can install from various sources.
+
+- `apt-get install package_name` : Downloads and install that package from the internet. Usually follows the above command.
+
+- `apt-get purge package_name` : completely removes the package. 
+
+- `apt-get install -f package_name` : Download and install, and correct broken dependecies. Like if package A is dependent on package B to run, but package B is broken it may try to reinstall it.
+
+- `apt-get autoremove` : removes unused packages automatically.
+
+> All of these commands are generally preceded by sudo (super user do) which in noob speak translates to administrater privileges. The GUI app to do this effectively can be downloaded using `apt-get install synaptic` 
  
 ---
 Copyright [sudoankit.](https://github.com/sudoankit)

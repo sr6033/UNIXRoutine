@@ -48,3 +48,13 @@ Thank you so much for looking at it. Contribution and help in any way is welcome
 _Sincerly signed_,
 
 :trollface: sudoankit
+
+---
+
+### Contributing
+
+Only edit the `index.md` file, not the `index.html`. `Jekyll` will generate the `index.html` automatically. After this please run it locally using `jekyll serve` from the main directory.
+
+Use the format used for the commands already updated. Please fortify descriptions with humour. If you can, generate the geeky gifs using `ttystudio`. Get it here : [ttystudio](https://github.com/chjj/ttystudio)
+
+Thank you so much for improving this random project. :smile:
