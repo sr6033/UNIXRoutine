@@ -122,7 +122,7 @@ Have a nice day.</p>
     <p><code class="highlighter-rouge">apt-get install package_name</code> : Downloads and install that package from the internet. Usually follows the above command.</p>
   </li>
   <li>
-    <p><code class="highlighter-rouge">apt-get purge package_name</code> : completely removes the package.</p>
+    <p><code class="highlighter-rouge">apt-get purge package_name</code> : Completely removes the package.</p>
   </li>
   <li>
     <p><code class="highlighter-rouge">apt-get install -f package_name</code> : Download and install, and correct broken dependecies. Like if package A is dependent on package B to run, but package B is broken it may try to reinstall it.</p>
@@ -134,6 +134,28 @@ Have a nice day.</p>
 
 <blockquote>
   <p>All of these commands are generally preceded by sudo (super user do) which in noob speak translates to administrater privileges. The GUI app to do this effectively can be downloaded using <code class="highlighter-rouge">apt-get install synaptic</code></p>
+</blockquote>
+
+<h3 id="dnf--package-manager-the-next-gen-yum-with-more-yummy"><code class="highlighter-rouge">dnf</code> : Package manager. The next gen YUM with more YUMmy.</h3>
+
+<p>DNF or Dandified Yum is the next generation version of the Yellowdog Updater, Modified (yum), a package manager for RPM-based distributions(like Fedora).</p>
+
+<p>À la carte :</p>
+
+<ul>
+  <li>
+    <p><code class="highlighter-rouge">dnf update</code> : Updates the installed packages in your system.</p>
+  </li>
+  <li>
+    <p><code class="highlighter-rouge">dnf install package_name</code> : Searches the RPM repository for the package, downloads and installs it on the system.</p>
+  </li>
+  <li>
+    <p><code class="highlighter-rouge">dnf remove package_name</code> : Kicks out the specified package and flushes out all its files.</p>
+  </li>
+</ul>
+
+<blockquote>
+  <p>Before running the above commands, you have to either get sudo access by entering <code class="highlighter-rouge">su</code> and then your password or by preceding the command with <code class="highlighter-rouge">sudo</code>.</p>
 </blockquote>
 
 <hr />
