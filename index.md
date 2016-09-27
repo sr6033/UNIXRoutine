@@ -79,13 +79,27 @@ In layman terms, it's a package manager to install, delete, update, upgrade soft
 
 - `apt-get install package_name` : Downloads and install that package from the internet. Usually follows the above command.
 
-- `apt-get purge package_name` : completely removes the package. 
+- `apt-get purge package_name` : Completely removes the package. 
 
 - `apt-get install -f package_name` : Download and install, and correct broken dependecies. Like if package A is dependent on package B to run, but package B is broken it may try to reinstall it.
 
 - `apt-get autoremove` : removes unused packages automatically.
 
 > All of these commands are generally preceded by sudo (super user do) which in noob speak translates to administrater privileges. The GUI app to do this effectively can be downloaded using `apt-get install synaptic` 
+
+### `dnf` : Package manager. The next gen YUM with more YUMmy.
+
+DNF or Dandified Yum is the next generation version of the Yellowdog Updater, Modified (yum), a package manager for RPM-based distributions(like Fedora).
+
+À la carte : 
+
+- `dnf update` : Updates the installed packages in your system.
+
+- `dnf install package_name` : Searches the RPM repository for the package, downloads and installs it on the system.
+
+- `dnf remove package_name` : Kicks out the specified package and flushes out all its files.
+
+> Before running the above commands, you have to either get sudo access by entering `su` and then your password or by preceding the command with `sudo`.
  
 ---
 Copyright [sudoankit.](https://github.com/sudoankit)
