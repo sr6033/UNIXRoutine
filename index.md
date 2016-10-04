@@ -69,6 +69,38 @@ Have a nice day.
 
 ---
 
+### `echo` : "echoes" your input on the screen or to a file.
+
+À la carte : 
+
+- `echo Hello World` : Prints "Hello World" on the terminal.
+
+- `echo Hello World > hello.txt` : Creates(if not present) a file named hello.txt and puts "Hello World" text in it.
+
+> '>' is the output redirection operator. It sends the output to the file hello.txt.
+
+Geeky Gif : 
+
+![echo.gif](geekygifs/echo.gif)
+
+---
+
+### `pwd` : Present Working Directory
+
+À la carte : 
+
+- `pwd` : Prints the path of the directory that you are currently in.
+
+> Everything in Linux is a file.  Every file is organized in a hierarchical directory tree. The first directory in the filesystem is aptly named the root directory. The root directory has many folders and files which you can store more folders and files, etc. The location of these files and directories are referred to as paths. If you had a folder named home with a folder inside of it named sr6033 and another folder in that folder called Movies, that path would look like this: /home/sr6033/Movies, pretty simple huh?
+
+Navigation of the filesystem, much like real life is helpful if you know where you are and where you are going. To see where you are, you can use the pwd command, this command means “print working directory” and it just shows you which directory you are in, note the path stems from the root directory.
+
+Geeky Gif : 
+
+![pwd.gif](geekygifs/pwd.gif)
+
+---
+
 ### `apt-get` : Package manager for debian systems. 50% off this winters.
 
 In layman terms, it's a package manager to install, delete, update, upgrade softwares directly from **command line** . 
@@ -86,6 +118,8 @@ In layman terms, it's a package manager to install, delete, update, upgrade soft
 - `apt-get autoremove` : removes unused packages automatically.
 
 > All of these commands are generally preceded by sudo (super user do) which in noob speak translates to administrater privileges. The GUI app to do this effectively can be downloaded using `apt-get install synaptic` 
+
+---
 
 ### `dnf` : Package manager. The next gen YUM with more YUMmy.
 
